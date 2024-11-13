@@ -1,0 +1,41 @@
+/* Inicializando a página para podermos aplicar o CSS de uma forma melhor */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Declaração de Variáveis */
+:root {
+  /* Variáveis de COR */
+  --red: #E3646E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
+
+  --gray-100: #0D0E11;
+  --gray-200: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2E4E9;
+
+  /* Variáveis de TIPOGRAFIA*/
+  --font-asap: "Asap", sans-serif;
+  --font-inconsolata: "Inconsolata", monospace;
+  --font-maven-pro: "Maven Pro", sans-serif;
+
+  /* Fonte Asap */
+  --title-lg: bold 56px/120% var(--font-asap);
+  --title-md: bold 24px/120% var(--font-asap);
+  --title-sm: bold 16px/120% var(--font-asap);
+
+  /* Fonte Inconsolata */
+  --subtitle: normal 20px/120% var(--font-inconsolata);
+
+  /* Fonte Maven Pro */
+  --text-md: normal 16px/140% var(--font-maven-pro);
+  --text-sm: normal 14px/140% var(--font-maven-pro);
+
+}
