@@ -1,0 +1,60 @@
+#servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 56px;
+
+  height: 480px;
+  padding-top: 88px;
+  padding-bottom: 120px;
+
+  background-color: var(--gray-100);
+
+  #services-title{
+    p:nth-child(1){
+      font: var(--subtitle);
+      color: var(--red);
+    }
+
+    p:nth-child(2){
+      font: var(--title-md);
+    }
+  }
+
+  #grid {
+    width: 888px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    #service-card {
+      display: flex;
+      flex-direction: column;
+      width: 280px;
+      height: 155px;
+      gap: 20px;
+
+      padding: 20px;
+
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+
+      img {
+        width: 48px;
+        height: 48px;
+      }
+
+      #service-card-title{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: left;
+
+        p:nth-child(1){
+          font: var(--title-sm);
+        }
+      }
+    }
+  
+  }
+}
