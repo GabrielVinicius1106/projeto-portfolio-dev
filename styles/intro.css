@@ -4,11 +4,15 @@
   align-items: center;
 
   background-image: url(../assets/Background_Intro.png);
-  /* background-repeat: 1;
-  background-size: cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
 
+  margin-top: 100px;
   padding: 56px;
   height: 750px;
+
+  gap: 94px;
 
   #info {
     display: flex;
@@ -92,6 +96,12 @@
 
         background-color: var(--gray-300);
         border-radius: 24px;
+      }
+
+      div:nth-child(1){
+        img {
+          color: black;
+        }
       }
     }
 
