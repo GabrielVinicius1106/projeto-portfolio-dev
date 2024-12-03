@@ -33,11 +33,16 @@
       width: 330px;
       height: 280px;
       background-color: var(--gray-300);
+      border: 1px solid var(--gray-300);
       border-radius: 12px;
       text-align: left;
       gap: 12px;
 
       padding: 12px;
+
+      &:hover {
+        border-color: var(--gray-400);
+      }
 
       img {
         width: 306px;
